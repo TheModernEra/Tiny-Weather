@@ -1,4 +1,4 @@
-# Tiny-Weather
+# Tiny Weather
 
 https://tinyweather.z13.web.core.windows.net/
 
