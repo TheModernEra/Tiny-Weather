@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- Defines the langauge of elements we don't define the language of ourselves.-->
+<head>
+    <meta charset="UTF-8"> <!-- Sets the character set of the page. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Allows the website to be responsive -->
+    <title>Tiny Weather</title> <!-- Sets the title of the website (in the tab bar for example) -->
+    <link rel="stylesheet" href="index.css"> <!-- Links our CSS to the HTML -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script> <!-- Allows us to use jQuery for API requests -->
+    <script src="app.js"></script> <!-- Links our JavaScript code to the HTML -->
+</head>
+<body>
+    <div class="in-middle"> <!-- This div centers all of the following elements, horizontally and vertically -->
+        <section class="section-1"> <!-- This defines the following info as a continuous section, essentially grouping them together-->
+            <div class="container"> <!-- This div defines properties of grouped elements, giving us the ability to define an absolute border for all of the elements within it-->
+                <h1 id="cityName">Location Name</h1>
+                <h2 id="currentTemp">Temperature</h2>
+                <h4 id="currentCondition">Current Condition</h4>
+            </div>
+        </section>
+    </div>
+    
+</body>
+</html>
